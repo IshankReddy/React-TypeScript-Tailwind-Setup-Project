@@ -17,12 +17,17 @@ This repository provides a pre-configured setup for a React project using TypeSc
    cd React-TypeScript-Tailwind-Setup-Project
    ```
 
-2. **Install dependencies**
+2. **Delete the package-lock.json**
+    ```
+    rm package-lock.json
+    ```
+
+3. **Install dependencies**
    ```sh
    npm install
    ```
 
-3. **Start the development server**
+4. **Start the development server**
    ```sh
    npm run dev
    ```
@@ -41,6 +46,7 @@ React-TypeScript-Tailwind-Setup-Project/
 │── eslint.config.js
 │── index.html
 |── package.json
+|── package-lock.json
 |── post.config.js
 │── README.md
 │── tailwind.config.ts
